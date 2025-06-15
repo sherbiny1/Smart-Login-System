@@ -1,0 +1,46 @@
+body {
+  background-color: #24353f;
+}
+.group {
+  box-shadow: 0.5px 0.5px 30px 1px black;
+}
+.group h1 {
+  color: #189aaf;
+}
+.group input {
+  background-color: #24353f;
+  border-color: white;
+  color: white;
+}
+.group input:focus {
+  background-color: #24353f;
+  color: white;
+  border-color: #80bdff;
+  box-shadow: none;
+}
+.group input::placeholder {
+  color: #b6b6b6;
+}
+.demo-btn:hover {
+  text-decoration: underline !important;
+}
+.w-65 {
+  width: 65%;
+}
+.w-55 {
+  width: 55%;
+}
+.header-content {
+  position: absolute;
+  inset: 0;
+  color: #17a2b8;
+}
+.header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 5;
+}
+.curs {
+  cursor: pointer;
+}
